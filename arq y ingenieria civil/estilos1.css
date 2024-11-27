@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Color de fondo más suave */
+}
+
+section {
+    padding: 30px;
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 32px; /* Mayor tamaño para los títulos */
+    color: #4caf50; /* Verde vibrante */
+}
+
+.imagenes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px; /* Espacio entre las imágenes */
+}
+
+.imagenes img {
+    width: 280px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out; /* Efecto al pasar el ratón */
+}
+
+.imagenes img:hover {
+    transform: scale(1.05); /* Zoom al pasar el ratón */
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ff9800; /* Naranja brillante */
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 14px; /* Fuente más pequeña para el pie de página */
+}
+
+header {
+    background-color: #2196f3; /* Azul vibrante */
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 24px; /* Tamaño mayor en el header */
+    font-weight: 700; /* Negrita */
+}
